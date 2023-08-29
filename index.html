@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" \ />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Internship Project</h1>
+    <input class="Username" type="text" placeholder="Username" />
+    <input class="Password" type="text" placeholder="Password" />
+    <button class="Okbtn">OK!</button>
+    <h1>Another header to fill the page</h1>
+    <p>Another paragraph to fill the page also!!!!</p>
+    <div class="wrapper">
+      <h1>Data Table</h1>
+      <button class="newuserbtn">Add New User</button>
+      <table>
+        <tr class="bg-info">
+          <th>avatar</th>
+          <th>email</th>
+          <th>firstname</th>
+          <th>id</th>
+          <th>lastname</th>
+        </tr>
+
+        <tbody id="myTable"></tbody>
+      </table>
+    </div>
+    <div class="popUp">
+      <div onClick="hideBox()" class="close-btn">&times;</div>
+      <h1>Enter your new values!!!!</h1>
+      <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter Email" />
+      </div>
+      <div>
+        <label for="firstname">FirstName</label>
+        <input type="text" id="firstname" placeholder="Enter Firstname" />
+      </div>
+      <div>
+        <label for="id">Id</label>
+        <input type="number" id="id" placeholder="Enter Id" />
+      </div>
+      <div>
+        <label for="lastname">LastName</label>
+        <input type="text" id="lastname" placeholder="Enter LastName" />
+      </div>
+      <div>
+        <button class="sendbtn">Send!</button>
+      </div>
+    </div>
+    <div class="popUpAddUser">
+      <div onClick="hideBox2()" class="close-btn">&times;</div>
+      <h1>Enter New User's info</h1>
+      <div>
+        <label for="email">Email</label>
+        <input type="text" id="email2" placeholder="Enter Email" />
+      </div>
+      <div>
+        <label for="firstname">FirstName</label>
+        <input type="text" id="firstname2" placeholder="Enter Firstname" />
+      </div>
+      <div>
+        <label for="id">Id</label>
+        <input type="number" id="id2" placeholder="Enter Id" />
+      </div>
+      <div>
+        <label for="lastname">LastName</label>
+        <input type="text" id="lastname2" placeholder="Enter LastName" />
+      </div>
+      <div>
+        <button class="sendbtn2">Send!</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
