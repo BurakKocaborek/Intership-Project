@@ -71,12 +71,6 @@ const editUser = function (userId) {
 
     document.querySelector('.popUp').style.display = 'none';
   });
-  /*
-  let userName = document.querySelector('.form-element').FirstName;
-  let userId = document.querySelector('.form-element').Id;
-  let userLastName = document.querySelector('.form-element').LastName;
-  */
-  // console.log(userMail);
 };
 
 const editBtnHandler = userId => {
@@ -136,10 +130,6 @@ document.querySelector('.Okbtn').addEventListener('click', function () {
               .catch(error => console.log(error));
             document.querySelector('.popUpAddUser').style.display = 'none';
           });
-
-        /* document.querySelector('.sendbtn2').addEventListener('click', function () {
-      console.log(data.data);
-    }); */
       });
   }
 });
